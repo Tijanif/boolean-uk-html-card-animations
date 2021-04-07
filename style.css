@@ -35,6 +35,7 @@
 .card {
   background-color: var(--primary);
   border-radius: 5px;
+  box-shadow: 2px 2px 5px 0 #00000050;
 }
 
 /* CARD TOP ICONS */
@@ -75,11 +76,58 @@
 .main-card-section .software-engineer {
   padding: 10px 0;
   font-size: 1rem;
+  color: var(--secondary);
 }
 .main-card-section p {
   padding: 10px 0;
   font-size: 1.2rem;
+  color: var(--secondary);
 }
 .main-card-section .hire-me {
   color: var(--white);
+  display: inline-block;
+  width: 220px;
+
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(193, 172, 90, 1) 49%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1.5px 1.5px 5px #00000050;
+}
+
+/* CARD LOWER SECTION */
+.bottom-card-section {
+  display: grid;
+
+  grid-template: "bottom-icons bottom-icons bottom-icons" / 1fr 1fr 1fr;
+
+  justify-items: center;
+}
+
+.bottom-icons {
+  padding: 10px;
+  text-align: center;
+}
+.bottom-icons img {
+  height: 50px;
+}
+
+.bottom-card-section h2,
+p {
+  color: var(--white);
+  margin-top: 10px;
+}
+
+/* ANIMATIONS */
+
+.icon:hover {
+  background-color: var(--secondary);
+  border-radius: 50%;
+  transition: 1s;
 }
