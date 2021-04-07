@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --MainBackground: #0f0f0f;
+  --white: #ffffff;
+  --primary: #333a4b;
+  --secondary: #8a8d97;
+  --third: #f1f2f3;
+}
