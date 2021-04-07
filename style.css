@@ -28,4 +28,11 @@
 .container {
   grid-area: container;
   background-color: var(--white);
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background-color: var(--primary);
+  border-radius: 5px;
 }
