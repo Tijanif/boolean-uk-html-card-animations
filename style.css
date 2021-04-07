@@ -36,3 +36,50 @@
   background-color: var(--primary);
   border-radius: 5px;
 }
+
+/* CARD TOP ICONS */
+.top-icons {
+  display: grid;
+
+  grid-template: "icon icon icon" / 1fr auto;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+.icon img {
+  width: 100%;
+}
+
+/*  CARD MAIN CONTENT */
+
+.main-card-section {
+  text-align: center;
+  color: var(--secondary);
+  margin: 15px 0;
+}
+.main-card-section img {
+  /* vertical-align: middle; */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.main-card-section h1 {
+  color: var(--white);
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+.main-card-section .software-engineer {
+  padding: 10px 0;
+  font-size: 1rem;
+}
+.main-card-section p {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+.main-card-section .hire-me {
+  color: var(--white);
+}
