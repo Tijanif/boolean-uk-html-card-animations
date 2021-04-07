@@ -21,7 +21,7 @@
 
   grid-template:
     ". container ." /
-    auto 600px auto;
+    auto 500px auto;
 }
 
 /* CONTAINER */
@@ -35,7 +35,7 @@
 .card {
   background-color: var(--primary);
   border-radius: 5px;
-  box-shadow: 2px 2px 5px 0 #00000050;
+  box-shadow: 2px 2px 5px 0 #00000090;
 }
 
 /* CARD TOP ICONS */
@@ -127,7 +127,29 @@ p {
 /* ANIMATIONS */
 
 .icon:hover {
+  cursor: pointer;
   background-color: var(--secondary);
   border-radius: 50%;
   transition: 1s;
+}
+
+.main-card-section .hire-me:hover {
+  cursor: pointer;
+  transition: 1s;
+}
+
+.bottom-icons img:hover {
+  cursor: pointer;
+  background-color: var(--secondary);
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.card:hover {
+  animation: pop 0.5s linear;
+}
+@keyframes pop {
+  50% {
+    transform: scale(1.01);
+  }
 }
