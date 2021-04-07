@@ -133,6 +133,10 @@ p {
   transition: 1s;
 }
 
+.main-card-section img:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 5px 0 black;
+}
 .main-card-section .hire-me:hover {
   cursor: pointer;
   transition: 1s;
