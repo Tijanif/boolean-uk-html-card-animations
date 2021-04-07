@@ -11,3 +11,21 @@
   --secondary: #8a8d97;
   --third: #f1f2f3;
 }
+
+/* MAIN SECTION */
+.main {
+  height: 100vh;
+  background-color: var(--MainBackground);
+
+  display: grid;
+
+  grid-template:
+    ". container ." /
+    auto 600px auto;
+}
+
+/* CONTAINER */
+.container {
+  grid-area: container;
+  background-color: var(--white);
+}
